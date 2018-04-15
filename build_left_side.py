@@ -8,8 +8,7 @@ start_time = datetime.datetime(2018, 04, 11, 0, 0, 0, 0)  #, pytz.timezone('UTC'
 day_start = int(start_time.strftime("%s"))  - (4 * 60 * 60)
 
 
-
-station_ids = [ 15, 348, 3892, 7724, 84721 ]
+station_ids = [ 15, 348, 3892, 7724, 84721, 8948, 347274, 98472 ]
 
 date = '2018-04-11'
 
@@ -20,8 +19,7 @@ for id in station_ids:
         humidity = 36 + random.random() * 40;
 
         print date + '\t' + datetime.datetime.utcfromtimestamp(day_start+sec_in_day).strftime('%H:%M:%S') + '\t' + str(id) + '\t' + str(humidity) + '\t' + str(temp)
-        sec_in_day += 60 * 5
-
+        sec_in_day += 60
 
     
 
