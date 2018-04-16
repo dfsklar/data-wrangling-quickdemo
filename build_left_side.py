@@ -8,7 +8,7 @@ start_time = datetime.datetime(2018, 04, 11, 0, 0, 0, 0)  #, pytz.timezone('UTC'
 day_start = int(start_time.strftime("%s"))  - (4 * 60 * 60)
 
 
-station_ids = [ 15, 348, 3892, 7724, 84721, 8948, 347274, 98472 ]
+station_ids = [ 2348, 2892, 9892, 7724, 11421, 88948, 347274, 988472 ]
 
 date = '2018-04-11'
 
