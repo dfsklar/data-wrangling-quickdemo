@@ -17,8 +17,9 @@ for id in station_ids:
     while sec_in_day < (24 * 60 * 60):
         temp = 56 + random.random() * 20;
         humidity = 36 + random.random() * 40;
+        barom = 1000 + random.random() * 15;
 
-        print date + '\t' + datetime.datetime.utcfromtimestamp(day_start+sec_in_day).strftime('%H:%M:%S') + '\t' + str(id) + '\t' + str(humidity) + '\t' + str(temp)
+        print date + '\t' + datetime.datetime.utcfromtimestamp(day_start+sec_in_day).strftime('%H:%M:%S') + '\t' + str(id) + '\t' + str(humidity) + '\t' + str(barom) + '\t' + str(temp)
         sec_in_day += 60
 
     
