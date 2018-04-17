@@ -4,7 +4,7 @@ import pytz
 import datetime
 
 
-with open('leftside.tab', 'r') as myfile:
+with open('root/leftside.tab', 'r') as myfile:
     for line in myfile:
         fields = line.split('\t')
         var1 = random.random() * 0.15;
