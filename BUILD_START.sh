@@ -1,3 +1,4 @@
+source /usr/local/ae/.virtualenv/bin/activate
 /bin/rm -rf root
 mkdir root
 python build_left_side.py  > root/leftside.tab
